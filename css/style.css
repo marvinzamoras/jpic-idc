@@ -201,6 +201,11 @@ header .nav .caret {
     border-radius: 0;
 	border: none;
 	background-color: #333333;
+	display: none;
+}
+
+.navbar-nav li:hover .dropdown-menu{
+	display: block;
 }
 
 .dropdown-menu li:last-child  {
