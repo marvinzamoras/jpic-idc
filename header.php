@@ -15,7 +15,14 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Home</a></li> 
-						<li><a href="about.php">About Us</a></li>
+						<li><a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us</a>
+						 <ul class="dropdown-menu" role="menu">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Sponsors</a></li>
+            
+          </ul>
+		  </li>
 						<li><a href="services.html">Programs and Services</a></li>
                         <li><a href="portfolio.html">Special Projects</a></li>
                         <li><a href="pricing.html">News and Updates</a></li>

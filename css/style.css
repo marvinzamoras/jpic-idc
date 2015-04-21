@@ -173,7 +173,7 @@ header  .navbar-nav > li > a {
 
 
 .dropdown-menu li a:hover {
-    color: #fff !important;
+    color: #ec008c !important;
 }
 
 header .nav .caret {
@@ -185,10 +185,12 @@ header .nav .caret {
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: #fff;
 }
+.navbar-default .navbar-nav li:hover,
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color:  #fff;
+  background-color:  #ec008c;
+  color:#ffffff;
 }	
 	
 
@@ -196,6 +198,7 @@ header .nav .caret {
     box-shadow: none;
     border-radius: 0;
 	border: none;
+	background-color: #ec008c;
 }
 
 .dropdown-menu li:last-child  {
