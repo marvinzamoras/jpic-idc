@@ -121,7 +121,6 @@ header .navbar-default{
     background-color: #FFFFFF; 
 }
 
-header .nav li a:hover,
 header .nav li a:focus,
 header .nav li.active a,
 header .nav li.active a:hover,
@@ -135,7 +134,10 @@ header .nav li.active ul.dropdown-menu li.active a{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-
+.navbar-default .navbar-nav li a:hover{
+	color: #fff;
+	background-color: #109f50;
+}
 
 header .navbar-default .navbar-nav > .open > a,
 header .navbar-default .navbar-nav > .open > a:hover,
@@ -173,7 +175,7 @@ header  .navbar-nav > li > a {
 
 
 .dropdown-menu li a:hover {
-    color: #ec008c !important;
+    color: #fff !important;
 }
 
 header .nav .caret {
@@ -185,12 +187,12 @@ header .nav .caret {
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: #fff;
 }
-.navbar-default .navbar-nav li:hover,
+
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color:  #ec008c;
-  color:#ffffff;
+  background-color:  #109f50;
+  color:#fff;
 }	
 	
 
@@ -198,7 +200,7 @@ header .nav .caret {
     box-shadow: none;
     border-radius: 0;
 	border: none;
-	background-color: #ec008c;
+	background-color: #333333;
 }
 
 .dropdown-menu li:last-child  {
@@ -213,6 +215,8 @@ header .nav li .dropdown-menu  {
 header .nav li .dropdown-menu li a {
    line-height: 28px;
    padding: 3px 12px;
+   color: #6c6c69;
+   font-weight: bold;
 }
 
 /* --- menu --- */
@@ -288,8 +292,8 @@ header ul.nav li ul li ul {
   content:none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #109f50;  
-/* background: #52C2AD; */
+color: #fff;  
+background-color: #109f50;
 /*color:#37A691*/
 /* border: 1px solid #3AA994 !important; */
 }
